@@ -191,10 +191,11 @@
 </script>
 <style scoped>
   .cartlist {
-    width:100%;
-    position: absolute;
-    bottom: -200px;
+    width: 100%;
+    position: fixed;
+    bottom: -500px;
     transition: bottom 0.4s linear;
+    z-index:1000;
   }
   .isActive {
     bottom: 0px;
